@@ -68,7 +68,16 @@ p{margin:0}
 .dates{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:28px}
 .date{background:var(--card);border-radius:14px;padding:12px 10px;text-align:center;box-shadow:0 1px 0 var(--line);font-variant-numeric:tabular-nums}
 .date{display:block;color:inherit;text-decoration:none}
-.dates .date:last-child:nth-child(odd){grid-column:1/-1}
+.main-date{margin-top:28px;background:var(--card);border:1.5px solid var(--green);border-radius:18px;padding:20px 18px;text-align:center}
+.main-label{display:inline-block;font-size:.78rem;font-weight:700;letter-spacing:.08em;color:var(--green);background:var(--green-soft);padding:2px 12px;border-radius:999px}
+.main-day{font-family:var(--mincho);font-size:1.15rem;margin-top:10px;font-variant-numeric:tabular-nums}
+.main-day b{font-size:2rem;font-weight:700}
+.main-meta{list-style:none;margin:6px 0 0;padding:0;font-size:.95rem;line-height:1.8}
+.main-what{margin-top:10px;padding-top:10px;border-top:1px dashed var(--line);font-size:.88rem;line-height:1.8;color:var(--muted)}
+.other-label{text-align:center;font-size:.82rem;color:var(--muted);margin-top:26px;letter-spacing:.1em}
+.other-label+.dates{margin-top:10px}
+.pick{font-style:normal;font-size:.72rem;font-family:var(--sans);font-weight:700;color:var(--green);background:var(--green-soft);padding:2px 10px;border-radius:999px;margin-left:8px;vertical-align:middle}
+.s-card.main{border:1.5px solid var(--green)}
 .date b{display:block;font-family:var(--mincho);font-size:1.15rem}
 .date span{font-size:.8rem;color:var(--muted)}
 .hero .cta-block{margin-top:28px}
@@ -224,16 +233,25 @@ footer{text-align:center;padding-block:32px 120px;font-size:.78rem;color:var(--m
     <h1><span class="nw">自分と家族の身体を、</span><br><span class="nw"><span class="em">知ることから。</span></span></h1>
     <p class="sub">姿勢・骨盤・ケアの基本を<br>体験しながら学ぶ講座</p>
     <p class="who">自分の体を知りたい。<br>家族の体にも活かしたい。<br>そんな方のための<br>初めての方向け講座です。</p>
-    <div class="tags"><span class="tag">少人数制</span><span class="tag">初心者歓迎</span></div>
-    <div class="dates" aria-label="開催日">
-      <a class="date" href="#schedule"><b>10/17（土）</b><span>半日</span></a>
-      <a class="date" href="#schedule"><b>10/18（日）</b><span>1日</span></a>
-      <a class="date" href="#schedule"><b>10/19（月）</b><span>1日</span></a>
-      <a class="date" href="#schedule"><b>10/21（水）</b><span>1日</span></a>
-      <a class="date" href="#schedule"><b>11/7（土）</b><span>1日</span></a>
+    <div class="tags"><span class="tag">少人数制</span><span class="tag">初心者歓迎</span><span class="tag">男女参加OK</span></div>
+    <div class="main-date">
+      <p class="main-label">1日講座（メイン日程）</p>
+      <p class="main-day"><b>10/18</b>（日）9:45〜16:00</p>
+      <ul class="main-meta">
+        <li>アクシオン福岡（福岡市博多区）・駐車場あり</li>
+        <li>参加費 10,000円（お弁当付き）</li>
+      </ul>
+      <p class="main-what">姿勢と骨盤の関係／体の歪みの見方／骨盤調整の技術を体験／自宅でできるケア</p>
     </div>
     <div class="cta-block" id="hero-cta">
       <a class="btn js-form" href="https://forms.gle/NNU9E57W4fqY8zD19" target="_blank" rel="noopener">参加日程を選んで申し込む<span class="arrow">→</span></a>
+    </div>
+    <p class="other-label">ほかの日程</p>
+    <div class="dates" aria-label="ほかの開催日">
+      <a class="date" href="#schedule"><b>10/17（土）</b><span>半日・福津市</span></a>
+      <a class="date" href="#schedule"><b>10/19（月）</b><span>1日・福津市</span></a>
+      <a class="date" href="#schedule"><b>10/21（水）</b><span>1日・久留米市</span></a>
+      <a class="date" href="#schedule"><b>11/7（土）</b><span>1日・博多区</span></a>
     </div>
   </div>
 </section>
@@ -321,8 +339,8 @@ footer{text-align:center;padding-block:32px 120px;font-size:.78rem;color:var(--m
         </dl>
       </article>
 
-      <article class="s-card">
-        <div class="s-top"><p class="s-date">10/18<span>（日）</span></p><span class="kind day">1日版</span></div>
+      <article class="s-card main">
+        <div class="s-top"><p class="s-date">10/18<span>（日）</span><em class="pick">メイン</em></p><span class="kind day">1日版</span></div>
         <dl class="s-info">
           <dt>料金</dt><dd class="pr">10,000円</dd>
           <dt>時間</dt><dd>9:45〜16:00</dd>
