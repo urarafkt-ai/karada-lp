@@ -119,6 +119,7 @@ p{margin:0}
 .next p{line-height:2}
 .next .small{font-size:.88rem;color:var(--muted);line-height:1.9}
 .eyebrow{text-align:center;font-size:.9rem;font-weight:700;letter-spacing:.08em;color:var(--green);margin:0 0 12px}
+.join{text-align:center;font-size:.92rem;line-height:1.8;color:var(--brown);margin-top:14px}
 .pillars{list-style:none;margin:28px 0 0;padding:0;display:grid;gap:10px}
 .pillars li{background:var(--card);border-radius:14px;padding:14px 18px;line-height:1.75;font-size:.95rem}
 .pillars b{display:block;color:var(--green);font-size:.82rem;letter-spacing:.1em}
@@ -249,7 +250,8 @@ footer{text-align:center;padding-block:32px 120px;font-size:.78rem;color:var(--m
     <h1><span class="nw">「腰が痛い」「膝が痛い」</span><br><span class="nw em">部活の子に、親ができること</span></h1>
     <p class="sub">初心者向けの半日・1日講座<br>基本を、学んでみませんか？</p>
     <p class="who">お子さんの体のことを、基本から知りたい。<br>そんな保護者の方のための、<br>初めての方向け講座です。</p>
-    <div class="tags"><span class="tag">少人数制</span><span class="tag">初心者歓迎</span><span class="tag">男女参加OK</span><span class="tag">高校生以上</span></div>
+    <div class="tags"><span class="tag">少人数制</span><span class="tag">初心者歓迎</span><span class="tag">男女参加OK</span><span class="tag">保護者だけでもOK</span></div>
+    <p class="join">保護者の方だけの参加も歓迎。<br>高校生以上のお子さんとの親子参加もできます。</p>
     <div class="main-date">
       <p class="main-label">1日講座（メイン日程）</p>
       <p class="main-day"><b>10/18</b>（日）9:45〜16:00</p>
@@ -267,7 +269,7 @@ footer{text-align:center;padding-block:32px 120px;font-size:.78rem;color:var(--m
     <div class="dates" aria-label="ほかの開催日">
       <a class="date" href="#schedule"><b>10/17（土）</b><span>半日・福津市</span></a>
       <a class="date" href="#schedule"><b>10/19（月）</b><span>1日・福津市</span></a>
-      <a class="date" href="#schedule"><b>10/21（水）</b><span>1日・久留米市</span></a>
+      <a class="date" href="#schedule"><b>10/21（水）</b><span>美容テーマ・久留米市</span></a>
       <a class="date" href="#schedule"><b>11/7（土）</b><span>1日・博多区</span></a>
     </div>
   </div>
@@ -306,8 +308,38 @@ footer{text-align:center;padding-block:32px 120px;font-size:.78rem;color:var(--m
   </div>
 </section>
 
+<!-- ③ わかること -->
+<section class="alt">
+  <div class="wrap">
+    <h2>この講座で、<br>わかること</h2>
+    <div class="ba">
+      <div class="ba-item">
+        <p class="ba-before"><small>BEFORE</small>「痛い」と言われても、様子を見るだけ</p>
+        <span class="ba-arrow" aria-hidden="true">▼</span>
+        <p class="ba-after"><small>AFTER</small>体のどこに注目すればいいか、見当がつく</p>
+      </div>
+      <div class="ba-item">
+        <p class="ba-before"><small>BEFORE</small>練習中の姿勢が気になるけれど、どこを見ればいいか分からない</p>
+        <span class="ba-arrow" aria-hidden="true">▼</span>
+        <p class="ba-after"><small>AFTER</small>崩れやすい姿勢の見方が分かる</p>
+      </div>
+      <div class="ba-item">
+        <p class="ba-before"><small>BEFORE</small>「姿勢よくして」と言うだけ</p>
+        <span class="ba-arrow" aria-hidden="true">▼</span>
+        <p class="ba-after"><small>AFTER</small>姿勢と骨盤の関係が分かり、声のかけ方が具体的になる</p>
+      </div>
+      <div class="ba-item">
+        <p class="ba-before"><small>BEFORE</small>家でしてあげられることが分からない</p>
+        <span class="ba-arrow" aria-hidden="true">▼</span>
+        <p class="ba-after"><small>AFTER</small>家でできるケアの基本を知る</p>
+      </div>
+    </div>
+    <p class="note">※診断や治療を行う講座ではありません。<br>強い痛みや長引く痛みは、医療機関にご相談ください。</p>
+  </div>
+</section>
+
 <!-- ⑤ 講座内容 ⑥ 違い -->
-<section class="alt" id="course">
+<section id="course">
   <div class="wrap">
     <h2>学び方は2つ。<br>まずは「知る」からでも<br>大丈夫です。</h2>
     <div class="stack" style="margin-top:32px">
@@ -347,7 +379,7 @@ footer{text-align:center;padding-block:32px 120px;font-size:.78rem;color:var(--m
 </section>
 
 <!-- ⑨ 日程 -->
-<section id="schedule">
+<section class="alt" id="schedule">
   <div class="wrap">
     <h2>開催日程</h2>
     <div class="sched">
@@ -388,6 +420,7 @@ footer{text-align:center;padding-block:32px 120px;font-size:.78rem;color:var(--m
           <dt>料金</dt><dd class="pr">10,000円</dd>
           <dt>時間</dt><dd>10:00〜16:00</dd>
           <dt>内容</dt><dd>カイロプラクティックとは／美姿勢施術・エクササイズ／美肌体験／昼食付き</dd>
+          <dt>備考</dt><dd>この日は、美容（美姿勢・美肌）がテーマの内容です</dd>
           <dt>会場</dt><dd>久留米リサーチパーク<br>福岡県久留米市百年公園1-1</dd>
         </dl>
       </article>
@@ -407,7 +440,8 @@ footer{text-align:center;padding-block:32px 120px;font-size:.78rem;color:var(--m
     <div class="card family">
       <h3>ご家族・ペアでの参加について</h3>
       <ul class="dots">
-        <li>高校生以上の方が参加できます</li>
+        <li>保護者の方だけの参加も歓迎です</li>
+        <li>高校生以上のお子さんとの親子参加もできます（参加できるのは高校生以上の方です）</li>
         <li>実技は受講生どうしで行います。親子・夫婦・きょうだいでの参加も多くいらっしゃいます</li>
         <li>ペア割：お2人で参加の場合、1日版は2人で15,000円（通常10,000円×2）、半日版は2人で7,500円（通常5,000円×2）</li>
         <li>小さなお子さんは、別室で無料でお預かりします</li>
@@ -421,7 +455,7 @@ footer{text-align:center;padding-block:32px 120px;font-size:.78rem;color:var(--m
 </section>
 
 <!-- ⑧ 講師 -->
-<section class="alt">
+<section>
   <div class="wrap">
     <h2>講師について</h2>
     <div class="teacher">
@@ -437,36 +471,6 @@ footer{text-align:center;padding-block:32px 120px;font-size:.78rem;color:var(--m
         <p>体の仕組みを知り、自分や家族の体を自分でケアするための学びをお伝えしています。</p>
       </div>
     </div>
-  </div>
-</section>
-
-<!-- ③ わかること -->
-<section>
-  <div class="wrap">
-    <h2>この講座で、<br>わかること</h2>
-    <div class="ba">
-      <div class="ba-item">
-        <p class="ba-before"><small>BEFORE</small>「痛い」と言われても、様子を見るだけ</p>
-        <span class="ba-arrow" aria-hidden="true">▼</span>
-        <p class="ba-after"><small>AFTER</small>体のどこに注目すればいいか、見当がつく</p>
-      </div>
-      <div class="ba-item">
-        <p class="ba-before"><small>BEFORE</small>練習中の姿勢が気になるけれど、どこを見ればいいか分からない</p>
-        <span class="ba-arrow" aria-hidden="true">▼</span>
-        <p class="ba-after"><small>AFTER</small>崩れやすい姿勢の見方が分かる</p>
-      </div>
-      <div class="ba-item">
-        <p class="ba-before"><small>BEFORE</small>「姿勢よくして」と言うだけ</p>
-        <span class="ba-arrow" aria-hidden="true">▼</span>
-        <p class="ba-after"><small>AFTER</small>姿勢と骨盤の関係が分かり、声のかけ方が具体的になる</p>
-      </div>
-      <div class="ba-item">
-        <p class="ba-before"><small>BEFORE</small>家でしてあげられることが分からない</p>
-        <span class="ba-arrow" aria-hidden="true">▼</span>
-        <p class="ba-after"><small>AFTER</small>家でできるケアの基本を知る</p>
-      </div>
-    </div>
-    <p class="note">※診断や治療を行う講座ではありません。<br>強い痛みや長引く痛みは、医療機関にご相談ください。</p>
   </div>
 </section>
 
@@ -554,6 +558,7 @@ footer{text-align:center;padding-block:32px 120px;font-size:.78rem;color:var(--m
       <details id="faq1"><summary>体のことは何も知らなくても大丈夫？</summary><p class="ans">はい、初めての方向けの内容です。</p></details>
       <details id="faq2"><summary>半日版と1日版、どちらがいい？</summary><p class="ans">まず知りたい方は半日版、手を使ったケアまで覚えたい方は1日版がおすすめです。</p></details>
       <details id="faq3"><summary>何歳から参加できますか？</summary><p class="ans">高校生以上の方が参加できます。</p></details>
+      <details id="faq3b"><summary>子どもを連れて行かないと参加できませんか？</summary><p class="ans">いいえ、保護者の方だけで参加できます。お子さんと一緒に参加することもできます。</p></details>
       <details id="faq4"><summary>子どもを連れて参加できますか？</summary><p class="ans">小さなお子さんは、別室で無料でお預かりします。</p></details>
       <details id="faq5"><summary>実技は誰とするのですか？</summary><p class="ans">受講生どうしで行います。親子、夫婦、きょうだいで参加される方も多くいらっしゃいます。</p></details>
       <details id="faq6"><summary>2人で参加すると割引はありますか？</summary><p class="ans">ペア割があります。1日版は2人で15,000円、半日版は2人で7,500円です。</p></details>
