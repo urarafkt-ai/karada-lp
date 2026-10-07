@@ -120,7 +120,7 @@ p{margin:0}
 .next .small{font-size:.88rem;color:var(--muted);line-height:1.9}
 .eyebrow{text-align:center;font-size:.9rem;font-weight:700;letter-spacing:.08em;color:var(--green);margin:0 0 12px}
 .dates .date:last-child:nth-child(odd){grid-column:1/-1}
-.join{text-align:center;font-size:.92rem;line-height:1.8;color:var(--brown);margin-top:14px}
+.join{text-wrap:balance;text-align:center;font-size:.92rem;line-height:1.8;color:var(--brown);margin-top:14px}
 .pillars{list-style:none;margin:28px 0 0;padding:0;display:grid;gap:10px}
 .pillars li{background:var(--card);border-radius:14px;padding:14px 18px;line-height:1.75;font-size:.95rem}
 .pillars b{display:block;color:var(--green);font-size:.82rem;letter-spacing:.1em}
@@ -252,7 +252,7 @@ footer{text-align:center;padding-block:32px 120px;font-size:.78rem;color:var(--m
     <p class="sub">初心者向けの半日・1日講座<br>基本を、学んでみませんか？</p>
     <p class="who">お子さんの体のことを、基本から知りたい。<br>そんな保護者の方のための、<br>初めての方向け講座です。</p>
     <div class="tags"><span class="tag">少人数制</span><span class="tag">初心者歓迎</span><span class="tag">男女参加OK</span><span class="tag">保護者だけでもOK</span></div>
-    <p class="join">保護者の方だけの参加も歓迎。<br>高校生以上のお子さんとの親子参加もできます。</p>
+    <p class="join">高校生以上のお子さんとの親子参加される方も多いですが、保護者の方だけの参加ももちろん歓迎。</p>
     <div class="main-date">
       <p class="main-label">1日講座（メイン日程）</p>
       <p class="main-day"><b>10/18</b>（日）9:45〜16:00</p>
@@ -269,9 +269,9 @@ footer{text-align:center;padding-block:32px 120px;font-size:.78rem;color:var(--m
     </div>
     <p class="other-label">ほかの日程</p>
     <div class="dates" aria-label="ほかの開催日">
-      <a class="date" href="#schedule"><b>10/17（土）</b><span>半日・福津市</span></a>
-      <a class="date" href="#schedule"><b>10/19（月）</b><span>1日・福津市</span></a>
-      <a class="date" href="#schedule"><b>10/21（水）</b><span>美容テーマ・久留米市</span></a>
+      <div class="date"><b>10/17（土）</b><span>半日・福津市</span></div>
+      <div class="date"><b>10/19（月）</b><span>1日・福津市</span></div>
+      <div class="date"><b>10/21（水）</b><span>美容テーマ・久留米市</span></div>
     </div>
   </div>
 </section>
@@ -288,7 +288,6 @@ footer{text-align:center;padding-block:32px 120px;font-size:.78rem;color:var(--m
       <li>病院や整骨院に任せるだけでなく、家でも何かしてあげたい</li>
     </ul>
     <p class="lead bridge">ひとつでも当てはまったら、<br>まずは講座の内容を見てみてください。</p>
-    <a class="btn-line bridge-btn" href="#schedule">開催日程を見る ↓</a>
   </div>
 </section>
 
@@ -425,7 +424,7 @@ footer{text-align:center;padding-block:32px 120px;font-size:.78rem;color:var(--m
           <dt>時間</dt><dd>10:00〜16:00</dd>
           <dt>内容</dt><dd>カイロプラクティックとは／美姿勢施術・エクササイズ／美肌体験／昼食付き</dd>
           <dt>備考</dt><dd>この日は、美容（美姿勢・美肌）がテーマの内容です</dd>
-          <dt>会場</dt><dd>久留米リサーチパーク<br>福岡県久留米市百年公園1-1</dd>
+          <dt>会場</dt><dd>久留米リサーチパーク<br>福岡県久留米市百年公園1-1<br>駐車場あり</dd>
         </dl>
       </article>
 
@@ -434,8 +433,8 @@ footer{text-align:center;padding-block:32px 120px;font-size:.78rem;color:var(--m
     <div class="card family">
       <h3>ご家族・ペアでの参加について</h3>
       <ul class="dots">
-        <li>保護者の方だけの参加も歓迎です</li>
-        <li>高校生以上のお子さんとの親子参加もできます（参加できるのは高校生以上の方です）</li>
+        <li>高校生以上のお子さんとの親子参加される方も多いですが、保護者の方だけの参加ももちろん歓迎です</li>
+        <li>参加できるのは高校生以上の方です</li>
         <li>実技は受講生どうしで行います。親子・夫婦・きょうだいでの参加も多くいらっしゃいます</li>
         <li>ペア割：10/17（半日）は2人で7,500円（通常5,000円×2）、10/18・10/19（1日）は2人で15,000円（通常10,000円×2）</li>
         <li>小さなお子さんは、10/18・10/19に限り、別室で無料でお預かりします</li>
