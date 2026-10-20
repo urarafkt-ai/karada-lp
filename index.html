@@ -178,6 +178,10 @@ details .inner h4:first-child{margin-top:4px}
 .voice .body{margin:0;font-size:15.5px;line-height:1.85}
 .voice.lined{border-left:4px solid var(--c,var(--sage))}
 .voice-block{margin-top:26px}
+.chirobox{background:rgba(255,255,255,.7);border-left:4px solid var(--c,var(--sage-deep));border-radius:8px;padding:12px 14px;margin:0 0 16px;font-size:14.5px;line-height:1.8}
+.chirobox b{color:var(--c,var(--sage-deep))}
+details.halffold{margin-top:22px}
+details.halffold>.sched{margin:0 10px 12px;box-shadow:none}
 .voice-block h3.sub-t{font-size:18px;margin-bottom:14px}
 
 /* 講師 */
@@ -257,7 +261,7 @@ h1,h2{text-wrap:balance}
       <a class="path one" href="#oneday" data-track="path_click" data-where="oneday">
         <span class="p-top"><span class="p-step">実践編</span><span class="p-meta">10,000円・お弁当付き</span></span>
         <b class="p-title">1日講座</b>
-        <span class="p-copy">10/31（土）・12/20（日）｜お子さんの体の見方を、体験して学ぶ</span>
+        <span class="p-copy">1日：10/31（土）・12/20（日）<br>半日版：10/28（水）・11/3（火・祝）<br>お子さんの体の見方を、体験して学ぶ</span>
         <span class="p-arrow" aria-hidden="true">›</span>
       </a>
       <a class="path master" href="#master" data-track="path_click" data-where="master">
@@ -267,7 +271,7 @@ h1,h2{text-wrap:balance}
         <span class="p-arrow" aria-hidden="true">›</span>
       </a>
     </nav>
-    <p class="paths-note">体験編から順番に受ける必要はありません。<br>いまの気持ちに近いところから、どうぞ。</p>
+    <p class="paths-note">体験編から順番に受ける必要はありません。<br>気になる講座から、どうぞ。</p>
   </div>
 </header>
 
@@ -280,7 +284,7 @@ h1,h2{text-wrap:balance}
     <div class="kk-grid">
       <div class="kk">「痛い」と言われて<br>迷う</div>
       <div class="kk">練習中の姿勢が<br>気になる</div>
-      <div class="kk">声かけに<br>迷う</div>
+      <div class="kk">どう声をかければ<br>いいか迷う</div>
       <div class="kk">家でも何か<br>してあげたい</div>
     </div>
     <p class="kk-end">「痛い」と言われたとき、湿布を貼って、様子を見る。それ以外に何をしたらいいのか、分からないという方も少なくないんです。</p>
@@ -310,7 +314,9 @@ h1,h2{text-wrap:balance}
     <p class="for">お子さんの体の見方と、家でのケアの基本を、体験したい方へ</p>
     <div class="price">10,000円・お弁当付き</div>
     <p class="pair">ペア割：お2人で15,000円</p>
-    <p>身体のしくみを学び、<br>講師と一緒に、手を使ったケアの基本を体験します。<br>骨盤調整などの実技は、受講生どうしで体験します。</p>
+    <p>身体のしくみを学び、<br>手を使ったケアの基本を、受講生どうしで体験します。</p>
+
+    <div class="chirobox"><b>カイロプラクティックとは</b><br>骨盤や背骨など、身体の土台に目を向けて、手を使って整えていく手技です。姿勢や、毎日の動き・生活習慣とのつながりも大切に考えます。</div>
 
     <ul class="learn">
       <li>姿勢と骨盤の関係</li>
@@ -332,9 +338,8 @@ h1,h2{text-wrap:balance}
       </figure>
     </div>
 
-    <p>模型を見て、姿勢を確かめて、実際に手を動かしてみる。<br>聞くだけではわかりにくいことも、体験しながら学べます。</p>
-    <p>実技は受講生どうしで行います。<br>お一人でも、親子・ご夫婦・ご友人との参加でも歓迎です。<br>保護者の方だけの参加も、もちろん歓迎です。</p>
-    <p class="note">※1日講座は、基本を体験する初心者向けの講座です。<br>※診断や治療を行う講座ではありません。強い痛みや長引く痛みは、医療機関にご相談ください。</p>
+    <p>お一人でも、親子・ご夫婦・ご友人との参加でも歓迎です。<br>保護者の方だけの参加も、もちろん歓迎です。</p>
+    <p class="note">※1日講座は、基本を体験する初心者向けの講座です。</p>
 
     <details>
       <summary>1日の流れを見る</summary>
@@ -412,8 +417,10 @@ h1,h2{text-wrap:balance}
     </div>
 
     <!-- ===== 半日版（3時間）：日程終了後は、該当の <li class="dateitem"> だけ削除 ===== -->
+    <details class="halffold">
+    <summary>半日版（3時間）もあります｜10/28・11/3</summary>
     <div class="sched" id="half">
-      <h3>半日版（3時間）もあります</h3>
+      <h3>半日版（3時間）</h3>
       <p class="small" style="margin:-6px 0 12px">10/31のご都合が合わない方や、まず知りたい方に。</p>
       <ul class="dates">
         <li class="dateitem"><span class="dd">10/28<small>（水）</small></span><span class="dk"><b>半日版</b><br>福津市</span></li>
@@ -432,6 +439,7 @@ h1,h2{text-wrap:balance}
       </ul>
       <a class="btn btn-primary" href="https://forms.gle/t9xWALW6ehwfiWoF9" target="_blank" rel="noopener" data-track="apply_click" data-where="half">参加日程を選んで申し込む <span class="arrow">▶</span></a>
     </div>
+    </details>
   </div>
 </section>
 
@@ -455,8 +463,9 @@ h1,h2{text-wrap:balance}
     <p>自分や家族のために学びたい方も、<br>仕事につなげていきたい方も受講できます。</p>
     <p>日程・会場・費用は、<br>無料姿勢講座や1日講座でご案内します。<br>LINEでもお気軽にご相談ください。</p>
 
-    <div class="voice-block" data-shokyu>
-      <h3 class="sub-t">初級セミナーで学んだ方の今</h3>
+    <details data-shokyu style="margin-top:22px">
+      <summary>初級セミナーで学んだ方の今</summary>
+      <div class="inner">
 
       <div class="voice">
         <div class="head">家族のために、学び続けています</div>
@@ -484,6 +493,7 @@ h1,h2{text-wrap:balance}
       </details>
       <p class="note" style="margin-top:12px">※初級セミナー受講者の声です。<br>※個人の感想であり、結果を保証するものではありません。</p>
     </div>
+    </details>
 
     <details style="margin-top:22px">
       <summary>仕事につなげたい方へ</summary>
