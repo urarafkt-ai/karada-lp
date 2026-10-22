@@ -3,11 +3,11 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>部活の子に、親ができること｜姿勢と骨盤の基本講座</title>
+<title>スポーツしてるお子さんに、けがしないためにできること｜姿勢と骨盤の基本講座</title>
 <meta name="description" content="部活を頑張るお子さんの保護者へ。姿勢と骨盤の基本、家でできるケアの基本を、実際に体験しながら学ぶ初心者向けの講座です。保護者の方おひとりでも参加できます。">
 <meta name="theme-color" content="#F7F4EC">
-<meta property="og:title" content="部活の子に、親ができること｜姿勢と骨盤の基本講座">
-<meta property="og:description" content="初心者向け。姿勢と骨盤の基本を、体験しながら学びます。無料姿勢講座・1日講座があります。">
+<meta property="og:title" content="スポーツしてるお子さんに、けがしないためにできること｜姿勢と骨盤の基本講座">
+<meta property="og:description" content="初心者向け。姿勢と骨盤の基本を、体験しながら学びます。姿勢講座（無料）・1日講座があります。">
 <meta property="og:type" content="website">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -73,11 +73,11 @@ a:focus-visible,summary:focus-visible,.btn:focus-visible{outline:3px solid var(-
 .hero .regions{display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px;margin-bottom:18px}
 .hero .region{display:inline-block;white-space:nowrap;font-size:13px;letter-spacing:.1em;font-weight:500;color:var(--sage-deep);border:1px solid var(--sage);border-radius:999px;padding:3px 14px;background:rgba(255,255,255,.55)}
 .hero .region-sub{font-size:13px;letter-spacing:.08em;color:var(--brown-soft);font-weight:500;white-space:nowrap}
-.hero h1{font-size:28px;line-height:1.55;letter-spacing:.01em;margin-bottom:16px}
+.hero h1{font-size:clamp(22px,6.6vw,28px);line-height:1.55;letter-spacing:.01em;margin-bottom:16px}
 .hero h1 .l1{display:block;font-size:21px;color:var(--sage-deep);margin-bottom:6px}
 .kosa-banner{background:var(--sage-deep);color:#fff;border-radius:12px;padding:13px 16px;margin:0 0 16px;line-height:1.6}
 .kosa-banner b{display:block;font-size:13px;letter-spacing:.08em;opacity:.9}
-.kosa-banner span{display:block;font-size:19px;font-weight:700}
+.kosa-banner span{display:block;font-size:clamp(16px,4.7vw,19px);font-weight:700;text-wrap:balance}
 .kosa-banner small{display:block;font-size:13px;margin-top:2px;opacity:.95}
 .hero-photo{margin:0 0 14px}
 .hero-photo img{width:100%;border-radius:var(--radius);aspect-ratio:4/3;object-fit:cover;object-position:50% 30%;background:var(--beige)}
@@ -85,6 +85,11 @@ a:focus-visible,summary:focus-visible,.btn:focus-visible{outline:3px solid var(-
 .about{background:rgba(255,255,255,.78);border:1px solid var(--line);border-left:5px solid var(--sage);border-radius:var(--radius);padding:14px 16px 6px;margin:0 0 14px}
 .about .about-t{font-size:13px;letter-spacing:.1em;font-weight:700;color:var(--sage-deep);margin-bottom:6px}
 .about p{font-size:15px;line-height:1.85;margin:0 0 .8em}
+.about-list{margin:2px 0 10px}
+.about-list li{position:relative;padding-left:26px;font-size:clamp(14px,3.85vw,15.5px);font-weight:500;line-height:1.7;margin-bottom:.55em}
+.about-list li::before{content:"";position:absolute;left:2px;top:.4em;width:18px;height:18px;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23566650' stroke-width='2' stroke-linecap='round'%3E%3Ccircle cx='12' cy='12' r='4'/%3E%3Cpath d='M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M4.9 19.1L7 17M17 7l2.1-2.1'/%3E%3C/svg%3E") no-repeat center/contain}
+.pre{display:block;font-size:12.5px;font-weight:500;letter-spacing:.06em;line-height:1.6;color:var(--brown-soft);margin-bottom:1px}
+.course h2 .pre{font-size:14px;color:var(--c)}
 .chip{display:inline-block;background:var(--white);border:1px solid var(--line);border-radius:10px;padding:6px 13px;font-size:14px;font-weight:500;line-height:1.5}
 .chip b{color:var(--sage-deep)}
 
@@ -115,7 +120,7 @@ a:focus-visible,summary:focus-visible,.btn:focus-visible{outline:3px solid var(-
 .kikkake{padding:38px 0 40px}
 .eyebrow{font-size:13px;letter-spacing:.12em;color:var(--sage-deep);font-weight:500;margin-bottom:8px}
 .kk-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:14px 0 18px}
-.kk{background:var(--white);border:1px solid var(--line);border-radius:12px;padding:14px 12px;font-size:14.5px;font-weight:500;line-height:1.6;text-align:center;display:flex;align-items:center;justify-content:center;min-height:64px}
+.kk{background:var(--white);border:1px solid var(--line);border-radius:12px;padding:14px 8px;font-size:clamp(13px,3.7vw,14.5px);font-weight:500;line-height:1.6;text-align:center;display:flex;align-items:center;justify-content:center;min-height:64px}
 .kk-end{margin:0;font-size:15.5px}
 
 /* 講座セクション共通 */
@@ -246,7 +251,7 @@ h1,h2{text-wrap:balance}
 <header class="hero" id="top">
   <div class="wrap">
     <div class="regions"><span class="region">福岡・福津</span><span class="region-sub">部活を頑張るお子さんの保護者の方へ</span></div>
-    <h1><span class="l1">「腰が痛い」「膝が痛い」</span>部活の子に、<br>親ができること</h1>
+    <h1><span class="l1">「腰が痛い」「膝が痛い」</span>スポーツしてるお子さんに<br>けがしないためにできること</h1>
     <div class="kosa-banner"><b>保護者向けの講座のご案内</b><span>姿勢と骨盤の基本を、体験して学ぶ</span><small>福津市・福岡市博多区で開催</small></div>
 
     <figure class="hero-photo" data-img="model">
@@ -256,30 +261,35 @@ h1,h2{text-wrap:balance}
 
     <div class="about">
       <div class="about-t">初心者向けの講座です</div>
-      <p><b>お子さんの姿勢を見るポイントと、家でできるケアの基本を、実際に体験しながら学ぶ講座です。</b></p>
+      <ul class="about-list">
+        <li>お子さんの姿勢を見るポイント</li>
+        <li>姿勢が悪いままスポーツすると、、、</li>
+        <li>良い姿勢とは？悪い姿勢とは？</li>
+        <li>良い姿勢に必要なこと</li>
+      </ul>
     </div>
-    <span class="chip"><b>初心者歓迎</b>｜男女参加OK｜保護者だけでもOK</span>
+    <span class="chip"><span class="nw"><b>初心者歓迎</b>｜</span><span class="nw">男女参加OK｜</span><span class="nw">保護者だけでもOK</span></span>
 
     <p class="paths-t">講座は3つ。気になるところから</p>
     <nav class="paths" aria-label="講座を選ぶ">
       <a class="path free" href="#free" data-track="path_click" data-where="free">
         <span class="p-top"><span class="p-step">体験編</span><span class="p-meta">無料</span></span>
-        <b class="p-title">無料姿勢講座</b>
-        <span class="p-copy">まずは身体の見方を知りたい方へ</span>
+        <b class="p-title"><small class="pre">家族の健康のための</small>姿勢講座（無料）</b>
+        <span class="p-copy">まずは<span class="nw">身体の見方を知りたい方へ</span></span>
         <span class="p-sub">約90分・無料・日時を選んで予約</span>
         <span class="p-go"><span class="p-arrow" aria-hidden="true">›</span>内容を見る</span>
       </a>
       <a class="path one" href="#oneday" data-track="path_click" data-where="oneday">
         <span class="p-top"><span class="p-step">実践編</span><span class="p-meta">10,000円・お弁当付き</span></span>
         <b class="p-title">1日講座</b>
-        <span class="p-copy">家でできるケアを実技で学びたい方へ</span>
-        <span class="p-sub">10/31（土）｜12/20（日）もあります</span>
+        <span class="p-copy">家でできるケアを<span class="nw">実技で学びたい方へ</span></span>
+        <span class="p-sub"><span class="nw">10/31（土）｜</span><span class="nw">12/20（日）もあります</span></span>
         <span class="p-go"><span class="p-arrow" aria-hidden="true">›</span>内容を見る</span>
       </a>
       <a class="path master" href="#master" data-track="path_click" data-where="master">
         <span class="p-top"><span class="p-step">マスター編</span><span class="p-meta">3泊4日</span></span>
         <b class="p-title">初級セミナー</b>
-        <span class="p-copy">家族のケアや仕事に向けて、本格的に学びたい方へ</span>
+        <span class="p-copy">家族のケアや仕事に向けて、<span class="nw">本格的に学びたい方へ</span></span>
         <span class="p-sub">11/15〜18／1月にも開催</span>
         <span class="p-go"><span class="p-arrow" aria-hidden="true">›</span>内容を見る</span>
       </a>
@@ -309,12 +319,12 @@ h1,h2{text-wrap:balance}
 <section id="free" class="course sec-white">
   <div class="wrap">
     <span class="step">体験編</span>
-    <h2>無料姿勢講座</h2>
+    <h2><small class="pre">家族の健康のための</small>姿勢講座（無料）</h2>
     <p class="for">まずは、身体の見方を知りたい方へ</p>
     <p>AI姿勢分析を使い、<br>今の姿勢と身体のつながりを一緒に確認します。</p>
     <div class="price">約90分／マンツーマン／無料</div>
     <p class="meta-line">会場：レディースカイロうらら・福津市<br>日時：予約ページから、ご都合のよい日時をお選びください。</p>
-    <a class="btn btn-primary" href="https://calendar.app.google/HbwF1YYNr8htry1c6" target="_blank" rel="noopener" data-track="apply_click" data-where="free_course">無料姿勢講座の日時を選ぶ <span class="arrow">▶</span></a>
+    <a class="btn btn-primary" href="https://calendar.app.google/HbwF1YYNr8htry1c6" target="_blank" rel="noopener" data-track="apply_click" data-where="free_course">姿勢講座（無料）の日時を選ぶ <span class="arrow">▶</span></a>
   </div>
 </section>
 
@@ -434,8 +444,8 @@ h1,h2{text-wrap:balance}
     <!-- ===== 日程が合わない方へ（補助の案内） ===== -->
     <div class="alt">
       <h3>開催日が合わない方へ</h3>
-      <p>無料姿勢講座は、ご都合のよい日時をお選びいただけます。<br>まずは約90分、身体の見方に触れてみませんか。</p>
-      <a class="btn btn-ghost btn-free" href="https://calendar.app.google/HbwF1YYNr8htry1c6" target="_blank" rel="noopener" data-track="apply_click" data-where="free_from_schedule">無料姿勢講座の日時を選ぶ <span class="arrow">▶</span></a>
+      <p>姿勢講座（無料）は、ご都合のよい日時をお選びいただけます。<br>まずは約90分、身体の見方に触れてみませんか。</p>
+      <a class="btn btn-ghost btn-free" href="https://calendar.app.google/HbwF1YYNr8htry1c6" target="_blank" rel="noopener" data-track="apply_click" data-where="free_from_schedule">姿勢講座（無料）の日時を選ぶ <span class="arrow">▶</span></a>
     </div>
   </div>
 </section>
@@ -459,7 +469,7 @@ h1,h2{text-wrap:balance}
 
     <div class="price">3泊4日</div>
     <p class="meta-line">日程：11/15〜18／1月にも開催<br>会場：小倉駅前（11/15〜18）<br>主催：Zenkenkai（全健会）</p>
-    <p>無料姿勢講座や1日講座では、<br>続けて学べる内容・費用・受講後の学び方もご案内します。<br>LINEでもお気軽にご相談ください。</p>
+    <p>姿勢講座（無料）や1日講座では、<br>続けて学べる内容・費用・受講後の学び方もご案内します。<br>LINEでもお気軽にご相談ください。</p>
 
     <details data-shokyu style="margin-top:22px">
       <summary>初級セミナーで学んだ方の今</summary>
@@ -537,8 +547,8 @@ h1,h2{text-wrap:balance}
       <div class="inner"><p>はい、初めての方向けの内容です。</p></div>
     </details>
     <details>
-      <summary>無料姿勢講座と1日講座は、どう違いますか？</summary>
-      <div class="inner"><p>無料姿勢講座は、約90分で自分の姿勢を確認し、身体の見方に触れる講座です。<br>1日講座は、姿勢を見るポイントと、家でできるケアの基本を、実技で学ぶ講座です。</p></div>
+      <summary>姿勢講座（無料）と1日講座は、どう違いますか？</summary>
+      <div class="inner"><p>姿勢講座（無料）は、約90分で自分の姿勢を確認し、身体の見方に触れる講座です。<br>1日講座は、姿勢を見るポイントと、家でできるケアの基本を、実技で学ぶ講座です。</p></div>
     </details>
     <details>
       <summary>何歳から参加できますか？</summary>
@@ -581,7 +591,7 @@ h1,h2{text-wrap:balance}
     <h2>頑張るわが子のために、<br>体の見方から<br>学んでみませんか。</h2>
     <p class="lines">まずは身体の見方を知りたい方も、<br>ケアの実技まで学びたい方も。<br>ご自分に合う講座から<br>始めてみませんか。</p>
     <div class="btn-stack">
-      <a class="btn btn-primary" href="https://calendar.app.google/HbwF1YYNr8htry1c6" target="_blank" rel="noopener" data-track="apply_click" data-where="final_free">無料姿勢講座の日時を選ぶ <span class="arrow">▶</span></a>
+      <a class="btn btn-primary" href="https://calendar.app.google/HbwF1YYNr8htry1c6" target="_blank" rel="noopener" data-track="apply_click" data-where="final_free">姿勢講座（無料）の日時を選ぶ <span class="arrow">▶</span></a>
       <a class="btn btn-ghost" href="#schedule" data-track="final_cta">1日講座の日程・申込を見る <span class="arrow">▶</span></a>
     </div>
     <p style="margin-top:26px;margin-bottom:0">どの講座が合うか迷っている方は</p>
@@ -603,7 +613,7 @@ h1,h2{text-wrap:balance}
 
 <!-- 画面下の3講座タブ（ファーストビューを過ぎたら表示／いま見ている講座に色がつきます） -->
 <nav class="tabs" id="tabs" aria-label="講座へ移動" aria-hidden="true">
-  <a class="free" href="#free" data-sec="free" data-track="tab_click" data-where="free" tabindex="-1">体験編<b>無料姿勢講座</b></a>
+  <a class="free" href="#free" data-sec="free" data-track="tab_click" data-where="free" tabindex="-1">体験編<b>姿勢講座（無料）</b></a>
   <a class="one" href="#oneday" data-sec="oneday" data-track="tab_click" data-where="oneday" tabindex="-1">実践編<b>1日講座</b></a>
   <a class="master" href="#master" data-sec="master" data-track="tab_click" data-where="master" tabindex="-1">マスター編<b>初級セミナー</b></a>
 </nav>
